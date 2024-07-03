@@ -13,9 +13,7 @@ export default function App() {
       return (
         <EmployeeInfo
           key={emp.id}
-          // employeesData={employeesData}
           employee={emp}
-          // setEmployeesData={setEmployeesData}
         />
       );
   })}, [employeesData]);
